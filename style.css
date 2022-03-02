@@ -1,18 +1,13 @@
 html {
-    font-size: 18px;
+    font-size: 20px;
     color: black;
     background-color: #FFEBDD;
     text-align: center;
-  }
-
-  h2 {
-    font-family: 'Allison', cursive;
-    font-size: 5rem;
-    font-weight: lighter;
-  }
-
-  p {
     font-family: 'Suranna', serif;
+  }
+
+  h4 {
+      text-align: justify;
   }
 
 nav {
@@ -49,7 +44,7 @@ main{
 }
 
 main img {
-    width: 30%;
+    width: 40%;
     max-width: 400px;
 }
 
@@ -59,15 +54,37 @@ section {
     max-width: 800px;
 }
 
-section img {
+.title {
     width: 50%;
+}
+
+.track_img img {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    border: solid 20px white;
+    box-shadow: 2px 2px 5px rgb(73, 71, 71);
+}
+
+figcaption{
+    font-size: 0.9rem;
+    color: black;
+    font-style: italic;
+    text-align: center;
+    margin-top: -15px;
 }
 
 section p {
     text-align: justify;
+    line-height: 1.6;
+    text-indent: 40px;
 }
 
 footer img {
     border: solid 20px white;
     box-shadow: 2px 2px 5px rgb(73, 71, 71);
+}
+
+.noIndent {
+    text-indent: 0px;
 }
