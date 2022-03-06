@@ -89,3 +89,13 @@ section p {
 a {
     color: black;
 }
+
+.footer{
+    background-image: url('img/footprint.jpg');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: contain;
+    height: 150px;
+    width: 100%;
+    margin: 20px 0px;
+}
