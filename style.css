@@ -29,7 +29,6 @@ ul  a {
     font-size: 1rem;
     font-weight: bolder;
     text-decoration: none;
-    font-family: 'Roboto Mono', monospace;
 }
 
 ul  a li {
@@ -67,7 +66,7 @@ section {
 }
 
 figcaption{
-    font-size: 0.9rem;
+    font-size: 15px;
     color: black;
     font-style: italic;
     text-align: center;
@@ -80,7 +79,7 @@ section p {
     text-indent: 40px;
 }
 
-footer img {
+.border {
     border: solid 20px white;
     box-shadow: 2px 2px 5px rgb(73, 71, 71);
 }
